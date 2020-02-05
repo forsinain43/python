@@ -97,6 +97,9 @@ def to_english(num):
 
 
 def sort_a_list(s):
+    '''
+    Sorts a list by ASCII order and removes duplicates
+    '''
     
     new_s = []
 
@@ -117,6 +120,9 @@ def sort_a_list(s):
 
 
 def ascii_difference(m, n):
+    '''
+    finds the sum and difference in the ASCII codes of elements in lists m and n
+    '''
 
     combine = []  # combined ascii vals
     diff = []  # difference between ascii vals
